@@ -114,7 +114,7 @@
             this.btnFreeze.Name = "btnFreeze";
             this.btnFreeze.Size = new System.Drawing.Size(297, 64);
             this.btnFreeze.TabIndex = 4;
-            this.btnFreeze.Text = "Freeze";
+            this.btnFreeze.Text = "Freeze Filter";
             this.btnFreeze.UseVisualStyleBackColor = true;
             this.btnFreeze.Click += new System.EventHandler(this.btnFreeze_Click);
             // 
@@ -192,7 +192,7 @@
             this.btnReplay.Name = "btnReplay";
             this.btnReplay.Size = new System.Drawing.Size(297, 64);
             this.btnReplay.TabIndex = 5;
-            this.btnReplay.Text = "Replay";
+            this.btnReplay.Text = "Replay Source";
             this.btnReplay.UseVisualStyleBackColor = true;
             this.btnReplay.Click += new System.EventHandler(this.btnReplay_Click);
             // 

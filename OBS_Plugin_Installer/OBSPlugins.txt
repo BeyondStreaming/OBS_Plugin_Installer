@@ -1,0 +1,8 @@
+{
+	"OBSWS":"https://github.com/obsproject/obs-websocket/releases/download/4.9.1/obs-websocket-4.9.1-Windows.zip",
+	"MoveTransition":"https://obsproject.com/forum/resources/move-transition.913/version/4297/download?file=84807",
+	"StreamFX":"https://github.com/Xaymar/obs-StreamFX/releases/download/0.11.1/streamfx-windows-2019-0.11.1.0-g81a96998.exe",
+	"Freeze":"https://obsproject.com/forum/resources/freeze-filter.950/version/3026/download?file=65907",
+	"SourceCopy":"https://obsproject.com/forum/resources/source-copy.1261/version/4071/download?file=81021",
+	"Replay":"https://obsproject.com/forum/resources/replay-source.686/version/4089/download?file=81603"
+}
