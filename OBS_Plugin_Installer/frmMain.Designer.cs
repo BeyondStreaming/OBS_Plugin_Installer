@@ -47,6 +47,7 @@
             this.txtOBSPath = new System.Windows.Forms.TextBox();
             this.btnRefresh = new System.Windows.Forms.Button();
             this.ilInstalled = new System.Windows.Forms.ImageList(this.components);
+            this.btnHelp = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbStreamFX)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbOBSWS)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMoveTransition)).BeginInit();
@@ -221,9 +222,9 @@
             // btnRefresh
             // 
             this.btnRefresh.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold);
-            this.btnRefresh.Location = new System.Drawing.Point(7, 289);
+            this.btnRefresh.Location = new System.Drawing.Point(384, 289);
             this.btnRefresh.Name = "btnRefresh";
-            this.btnRefresh.Size = new System.Drawing.Size(747, 64);
+            this.btnRefresh.Size = new System.Drawing.Size(370, 64);
             this.btnRefresh.TabIndex = 7;
             this.btnRefresh.Text = "Refresh";
             this.btnRefresh.UseVisualStyleBackColor = true;
@@ -236,12 +237,24 @@
             this.ilInstalled.Images.SetKeyName(0, "Installed.png");
             this.ilInstalled.Images.SetKeyName(1, "NotInstalled.png");
             // 
+            // btnHelp
+            // 
+            this.btnHelp.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold);
+            this.btnHelp.Location = new System.Drawing.Point(7, 289);
+            this.btnHelp.Name = "btnHelp";
+            this.btnHelp.Size = new System.Drawing.Size(370, 64);
+            this.btnHelp.TabIndex = 33;
+            this.btnHelp.Text = "Need Help?";
+            this.btnHelp.UseVisualStyleBackColor = true;
+            this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(760, 360);
+            this.Controls.Add(this.btnHelp);
             this.Controls.Add(this.btnRefresh);
             this.Controls.Add(this.btnStreamFX);
             this.Controls.Add(this.btnReplay);
@@ -295,6 +308,7 @@
         private System.Windows.Forms.TextBox txtOBSPath;
         private System.Windows.Forms.Button btnRefresh;
         private System.Windows.Forms.ImageList ilInstalled;
+        private System.Windows.Forms.Button btnHelp;
     }
 }
 

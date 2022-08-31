@@ -366,6 +366,15 @@ namespace OBS_Plugin_Installer
             }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
+
+        private void btnHelp_Click(object sender, EventArgs e)
+        {
+            if(DialogResult.Yes == MessageBox.Show("If you need any help, feel free to join our awesome discord community and we will gladly help you out. Join now?", "Join discord?", MessageBoxButtons.YesNo))
+            {
+                Process.Start(lDownloadLinks.Discord);
+            }
+
+        }
     }
 
     public class Links
@@ -376,5 +385,6 @@ namespace OBS_Plugin_Installer
         public string Freeze;
         public string SourceCopy;
         public string Replay;
+        public string Discord;
     }
 }
